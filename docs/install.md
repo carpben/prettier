@@ -27,6 +27,7 @@ Then, create an empty config file to let editors and other tooling know you are 
 ```bash
 echo {}> .prettierrc.json
 ```
+> If you are using PowerShell as your CLI tool use `echo {} | out-file .prettierrc.json -encoding utf8` instead. 
 
 Next, create a [.prettierignore](ignore.md) file to let the Prettier CLI and editors know which files to _not_ format. Here’s an example:
 
